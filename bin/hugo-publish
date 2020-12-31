@@ -5,7 +5,7 @@ set -o pipefail
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 USER_ID=$(id -u ${USER})
 GROUP_ID=$(id -g ${USER})
-IMAGE="skyscrapers/hugo:0.46"
+IMAGE="jguyomard/hugo-builder:0.55"
 
 rm -rf ${DIR}/../public/*
 

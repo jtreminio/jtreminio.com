@@ -1,4 +1,4 @@
-FROM skyscrapers/hugo:0.46
+FROM jguyomard/hugo-builder:0.55
 COPY . /data
 WORKDIR /data
 RUN hugo
